@@ -37,9 +37,9 @@ class Player {
 }
 
 // --- Initialization of players ---
-let player1 = new Player("Joaquim", "red");
-let player2 = new Player("Maxence", "blue");
-let player3 = new Player("Mostafa", "black");
+let player1 = new Player("Aleíx", "red");
+let player2 = new Player("Marco", "blue");
+let player3 = new Player("Clara", "black");
 
 // --- Turn 1  ---
 player1.move();
@@ -60,9 +60,9 @@ player3.displayInfo();
 class Game {
   constructor() {
     // --- Initialization of players ---
-    let player1 = new Player("Carol", "blue");
-    let player2 = new Player("Carlos", "black");
-    let player3 = new Player("Marco", "red");
+    let player1 = new Player("Aleíx", "blue");
+    let player2 = new Player("Marco", "black");
+    let player3 = new Player("Clara", "red");
 
     this.players = [player1, player2, player3];
     this.turn = 1;

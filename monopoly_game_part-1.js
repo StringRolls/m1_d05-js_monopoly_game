@@ -11,21 +11,21 @@ const squares = [100, -10, 0, 0, -40, -10, -10, 5, 0, -10, -50, -10, 0, 0, -50, 
 let dice;
 
 let player1 = {
-  name: 'Joaquim',
+  name: 'Aleìx',
   color: 'red',
   position: 0,
   cash: 1000
 };
 
 let player2 = {
-  name: 'Maxence',
+  name: 'Marco',
   color: 'blue',
   position: 0,
   cash: 1000
 };
 
 let player3 = {
-  name: 'Mostafa',
+  name: 'Clara',
   color: 'black',
   position: 0,
   cash: 1000
@@ -75,7 +75,7 @@ console.log(player3);
 // --- Initialization with methods ---
 
 let player1 = {
-  name: 'Joaquim',
+  name: 'Aleíx',
   color: 'red',
   position: 0,
   cash: 1000,
@@ -93,7 +93,7 @@ let player1 = {
 };
 
 let player2 = {
-  name: 'Maxence',
+  name: 'Marco',
   color: 'blue',
   position: 0,
   cash: 1000,
@@ -111,7 +111,7 @@ let player2 = {
 };
 
 let player3 = {
-  name: 'Mostafa',
+  name: 'Clara',
   color: 'black',
   position: 0,
   cash: 1000,
